@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spmf">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/phase2/VISUALIZATION/spmf.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

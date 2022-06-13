@@ -20,7 +20,4 @@ for tweet in snstwitter.TwitterSearchScraper(query).get_items():
 
 df = pd.DataFrame(tweets, columns=['Content'])
 print(df)
-# df.to_excel('elon_bitcoin.xlsx', sheet_name='sheet1', index=False)
 df.to_csv('covid_tweets_600.csv', sep='\t', index=False)
-
-# df.to_csv('covid_time.csv', index=False, sep='\t')
